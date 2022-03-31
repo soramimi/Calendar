@@ -13,7 +13,7 @@ int tz_seconds_east()
 #include <sys/time.h>
 int tz_seconds_east()
 {
-	return -__timezone;
+	return -timezone;
 }
 #endif
 
